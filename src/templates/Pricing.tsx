@@ -28,7 +28,7 @@ export const Pricing = () => {
               {t('button_text')}
             </Link>
           ),
-          [PLAN_ID.PREMIUM]: (
+          [PLAN_ID.SUBSCRIPTION]: (
             <Link
               className={buttonVariants({
                 size: 'sm',
@@ -39,7 +39,7 @@ export const Pricing = () => {
               {t('button_text')}
             </Link>
           ),
-          [PLAN_ID.ENTERPRISE]: (
+          [PLAN_ID.PREMIUM]: (
             <Link
               className={buttonVariants({
                 size: 'sm',
