@@ -34,7 +34,7 @@ export function DataTable<TData, TValue>({
   const t = useTranslations('DataTable');
 
   return (
-    <div className="rounded-md border bg-card">
+    <div className="rounded-md border bg-seaside-50">
       <Table>
         <TableHeader>
           {table.getHeaderGroups().map(headerGroup => (
@@ -45,9 +45,9 @@ export function DataTable<TData, TValue>({
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                        header.column.columnDef.header,
-                        header.getContext(),
-                      )}
+                          header.column.columnDef.header,
+                          header.getContext(),
+                        )}
                   </TableHead>
                 );
               })}

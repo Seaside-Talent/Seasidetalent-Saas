@@ -12,7 +12,7 @@ export const Hero = () => {
     <Section className="py-36">
       <CenteredHero
         banner={(
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-center gap-2">
             <Shield className="size-4 text-seaside-600" />
             <span className="text-sm font-medium text-seaside-600">
               HIPAA Compliant • Trusted by 3,142+ Healthcare Organizations

@@ -54,7 +54,9 @@
     "feature_email_support": "Resume Database Access",
     "plan_interval_month": "month",
     "plan_interval_year": "year",
-    "next_renew_date": "Your subscription renews on {date}"
+    "next_renew_date": "Your subscription renews on {date}",
+    "subscription_plan_description": "Description for the subscription plan.",
+    "subscription_plan_name": "Subscription Plan"
   },
   "FAQ": {
     "section_subtitle": "FAQ",

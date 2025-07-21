@@ -3,21 +3,12 @@ import { AppConfig } from '@/utils/AppConfig';
 export const Logo = (props: {
   isTextHidden?: boolean;
 }) => (
-  <div className="flex items-center text-xl font-semibold">
-    <svg
-      className="mr-1 size-8 stroke-current stroke-2"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M0 0h24v24H0z" stroke="none" />
-      <rect x="3" y="12" width="6" height="8" rx="1" />
-      <rect x="9" y="8" width="6" height="12" rx="1" />
-      <rect x="15" y="4" width="6" height="16" rx="1" />
-      <path d="M4 20h14" />
-    </svg>
-    {!props.isTextHidden && AppConfig.name}
+  <div className="flex flex-col items-start sm:items-center">
+    <span className="bg-gradient-to-r from-seaside-600 to-seaside-700 bg-clip-text text-2xl font-extrabold text-transparent sm:text-3xl">
+      {!props.isTextHidden && AppConfig.name}
+    </span>
+    <span className="mt-0.5 text-xs font-medium text-gray-500 sm:mt-1 sm:text-sm">
+      Healthcare Job Board
+    </span>
   </div>
 );
