@@ -45,7 +45,7 @@ export const Navbar = () => {
         </li>
 
         <li>
-          <Link href="/sign-up">{t('community')}</Link>
+          <Link href="/about">{t('community')}</Link>
         </li>
 
         <li>
