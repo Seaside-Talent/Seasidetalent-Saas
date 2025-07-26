@@ -10,8 +10,13 @@ export default function ContactPage() {
     <>
       <DemoBanner />
       <Navbar />
-      <div className="mb-24 flex min-h-screen w-full items-center justify-center bg-gradient-to-br from-seaside-200 via-seaside-100 to-seaside-50 px-2 py-16">
-        <main className="w-full max-w-2xl">
+      <div className="mb-24 flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-br from-seaside-200 via-seaside-100 to-seaside-50 px-2">
+        <div className="my-8 text-center">
+          <h1 className="bg-gradient-to-r from-seaside-600 via-seaside-400 to-seaside-600 bg-clip-text text-3xl font-extrabold text-transparent drop-shadow-md sm:text-4xl md:text-5xl">
+            Your Trusted Source for Healthcare Talent
+          </h1>
+        </div>
+        <main className="w-full max-w-2xl shrink-0">
           <div className="mb-24 rounded-3xl border border-seaside-100 bg-white/80 p-8 shadow-2xl backdrop-blur-md">
             <Section title="Get in Touch">
               <p className="mb-6 text-center text-lg text-seaside-700">
